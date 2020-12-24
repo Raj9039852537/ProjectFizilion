@@ -62,6 +62,8 @@ if CONFIG_CHECK:
 API_KEY = os.environ.get("API_KEY") or None
 API_HASH = os.environ.get("API_HASH") or None
 
+#command prefix
+CMD_PREFIX = os.environ.get("CMD_PREFIX") or "."
 
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION") or None
