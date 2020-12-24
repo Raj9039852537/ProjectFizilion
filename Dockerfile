@@ -1,5 +1,5 @@
 # inherit prebuilt image
-FROM frost2k5/projectfizilion:latest
+FROM elytra8/projectfizilion:latest
 
 # env setup
 RUN mkdir /Fizilion && chmod 777 /Fizilion
