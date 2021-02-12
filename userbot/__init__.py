@@ -236,6 +236,20 @@ with bot:
         )
         quit(1)
 
+async def start():
+    if BOTLOG:
+        try:
+            await bot.send_message(
+                BOTLOG_CHATID, "#UserBot #Fizilion \n\nCongrats Master, Userbot Fizilion has started successfully! \ntest it by writing .alive in any chat"
+                        )
+        except BaseException:
+            None
+    else:
+        pass
+
+with bot:
+    bot.loop.run_until_complete(start())
+
 # Global Variables
 COUNT_MSG = 0
 USERS = {}
