@@ -54,3 +54,11 @@ For discussion, bug reporting, and help, you can join [project Fizilion Support 
 
 This userbot licensed on [Raphielscape Public License](https://github.com/ElytrA8/ProjectFizilion/blob/dragon/LICENSE) - Version 1.d, February 2020
 Graphics Copyrighted By [ElytrA8](https://t.me/ElytrA8)
+
+--------------------------------------
+
+## Generate String Session
+Easy way to get STRING_SESSION. 
+
+### Run on repl.it
+[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=flat-square&logo=repl.it)](https://session.frost2k5.repl.run)
