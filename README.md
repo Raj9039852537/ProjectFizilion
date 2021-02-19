@@ -30,7 +30,7 @@
 The easiest way to deploy this great bot! is click on button below.
 Make sure you have an account of heroku and follow all the steps required.
 
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/FrosT2k5/ProjectFizilion/tree/dragon"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/ElytrA8/ProjectFizilion/tree/dragon"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Credits
 
