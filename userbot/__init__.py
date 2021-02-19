@@ -137,7 +137,7 @@ ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/ElytrA8/ProjectFizilion/raw/dragon/resources/Fizilion.png")
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY") or "")
-TZ_NUMBER = int(os.environ.get("TZ_NUMBER") or 1)
+TZ_NUMBER = os.environ.get("TZ_NUMBER") or 1
 
 # Version of Fizilion Userbot
 USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "production v2.0"
