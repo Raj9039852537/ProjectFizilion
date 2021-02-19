@@ -231,11 +231,11 @@ async def amireallyalive(alive):
     output = (
         "`Fizilion is Up`\n"
         f"`Hi {DEFAULTUSER}`\n"
-        f"•`Telethon       : v{version.__version__} `\n"
         f"•`Python         : v{python_version()} `\n"
-        f"•`Running on     : {repo.active_branch.name} `\n"
+        f"•`Telethon       : v{version.__version__} `\n"
+        f"•`Branch.        : {repo.active_branch.name} `\n"
         f"•`Loaded modules : {len(modules)} `\n"
-        f"•`Fizilion       : {USERBOT_VERSION} `\n"
+        f"•`Release        : {USERBOT_VERSION} `\n"
         f"•`Bot Uptime     : {uptime} `\n"
     )
     if ALIVE_LOGO:
