@@ -183,7 +183,7 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY") or "./downloads"
 
 # Setting Up CloudMail.ru and MEGA.nz extractor binaries,
-# and them correct perms to work properly.
+# and giving them correct perms to work properly.
 if not os.path.exists("bin"):
     os.mkdir("bin")
 
