@@ -24,7 +24,7 @@
 ![Docker_Pulls](https://img.shields.io/docker/pulls/elytra8/projectfizilion?style=for-the-badge)
 ![Spec](https://img.shields.io/badge/Made%20with-LOVE-black?style=for-the-badge)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[!Codacy](https://img.shields.io/codacy/grade/2c0ec73ffde549e6bd1a7ca80340687a?style=for-the-badge)
+[![Codacy](https://img.shields.io/codacy/grade/2c0ec73ffde549e6bd1a7ca80340687a?style=for-the-badge)]
 
 ## How To Host?
 
