@@ -25,17 +25,6 @@
 ![Spec](https://img.shields.io/badge/Made%20with-LOVE-black?style=for-the-badge)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## Generate String Session
-Easy way to get STRING_SESSION. 
-
-### Run on repl.it
-[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=flat-square&logo=repl.it)](https://session.uraniumcore.repl.run)
-
-### or Run on your terminal
-```
-wget https://raw.githubusercontent.com/ElytrA8/ProjectFizilion/dragon/terminal_getstring.sh && bash terminal_getstring.sh
-```
-
 ## How To Host?
 
 The easiest way to deploy this great bot! is click on button below.
