@@ -18,7 +18,7 @@
 /**
 ```
 
-[![Build](https://img.shields.io/github/workflow/status/ElytrA8/ProjectFizilion/FailedChecker?style=for-the-badge)](https://github.com/ElytrA8/ProjectFizilion/actions "build")
+[![Build](https://img.shields.io/github/workflow/status/ElytrA8/ProjectFizilion/FailedChecker?style=for-the-badge)](https://github.com/ElytrA8/ProjectFizilion/actions "CI")
 ![Docker](https://img.shields.io/docker/cloud/build/elytra8/projectfizilion?style=for-the-badge)
 ![Docker_Size](https://img.shields.io/docker/image-size/elytra8/projectfizilion?style=for-the-badge)
 ![Docker_Pulls](https://img.shields.io/docker/pulls/elytra8/projectfizilion?style=for-the-badge)
