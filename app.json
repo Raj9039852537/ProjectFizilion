@@ -14,6 +14,14 @@
   "success_url": "https://t.me/ProjectFizilion",
   "stack": "container",
   "env": {
+    "ALIVE_LOGO": {
+      "description": "Show Image/Logo in .alive message. Fill value of image your link image, use telegra.ph / i.ibb.co to get your own image",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Name to show in .alive message",
+      "required": false
+    },
     "API_KEY": {
       "description": "Get this value from my.telegram.org.",
       "required": true
@@ -59,11 +67,6 @@
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
       "value": "False"
-    },
-
-    "ALIVE_NAME": {
-      "description": "Name to show in .alive message",
-      "required": false
     },
     "LOGSPAMMER": {
       "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
