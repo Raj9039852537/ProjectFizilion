@@ -193,7 +193,7 @@ async def notifon(non_event):
     await non_event.edit("`Notifications from unapproved PM's unmuted!`")
 
 
-@register(outgoing=True, pattern=r"^.approve$")
+@register(outgoing=True, pattern=r"^.(approve|a)$")
 async def approvepm(apprvpm):
     """ For .approve command, give someone the permissions to PM you. """
     try:
@@ -242,7 +242,7 @@ async def approvepm(apprvpm):
         )
 
 
-@register(outgoing=True, pattern=r"^.disapprove$")
+@register(outgoing=True, pattern=r"^.(disapprove|d)$")
 async def disapprovepm(disapprvpm):
     try:
         from userbot.modules.sql_helper.pm_permit_sql import dissprove
@@ -273,7 +273,7 @@ async def disapprovepm(disapprvpm):
         )
 
 
-@register(outgoing=True, pattern=r"^.block$")
+@register(outgoing=True, pattern=r"^.(block|b)$")
 async def blockpm(block):
     """ For .block command, block people from PMing you! """
     if block.reply_to_msg_id:
@@ -305,7 +305,7 @@ async def blockpm(block):
         )
 
 
-@register(outgoing=True, pattern=r"^.unblock$")
+@register(outgoing=True, pattern=r"^.(unblock|ub)$")
 async def unblockpm(unblock):
     """ For .unblock command, let people PMing you again! """
     if unblock.reply_to_msg_id:
@@ -385,13 +385,13 @@ async def add_pmsg(cust_msg):
 CMD_HELP.update(
     {
         "pmpermit": "\
-.approve\
+.approve|.a\
 \nUsage: Approves the mentioned/replied person to PM.\
-\n\n.disapprove\
+\n\n.disapprove|.d\
 \nUsage: Disapproves the mentioned/replied person to PM.\
-\n\n.block\
+\n\n.block|.b\
 \nUsage: Blocks the person.\
-\n\n.unblock\
+\n\n.unblock|.ub\
 \nUsage: Unblocks the person so they can PM you.\
 \n\n.notifoff\
 \nUsage: Clears/Disables any notifications of unapproved PMs.\
