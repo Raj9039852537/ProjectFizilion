@@ -32,7 +32,6 @@ lxml
 lyricsgenius
 oauth2client
 pendulum
-pexpect
 Pillow
 psutil
 psycopg2
@@ -51,7 +50,6 @@ requests
 search-engine-parser
 speedtest-cli
 sqlalchemy==1.3.23
-TgCrypto
 telethon
 telethon-session-sqlalchemy
 telegraph
