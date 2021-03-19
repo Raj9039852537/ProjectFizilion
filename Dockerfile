@@ -12,7 +12,7 @@ RUN git clone https://github.com/ElytrA8/ProjectFizilion -b dragon /Fizilion
 # install required pypi modules
 RUN pip3 install -r requirements.txt
 
-#aria2c port Exposure
+#Exposure
 EXPOSE 80 443
 
 # Finalization
